@@ -445,10 +445,10 @@ footer {
   }
 
 #category-box1, #category-box4, #category-box5, #category-box8{
-    border: solid 2px yellow;
+    border: solid 2px transparent;
 }
 #category-box2, #category-box3, #category-box6, #category-box7{
-    border: solid 2px rgb(255, 183, 0);
+    border: solid 2px transparent;
 }
 
   #feedback-box-ftr {
