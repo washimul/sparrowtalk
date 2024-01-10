@@ -414,7 +414,7 @@ const Feedback = mongoose.model('Feedback', {
   
 
     mongoose
-    .connect('mongodb+srv://washimulislamData:uNUS3sHk8EQPzjwJ@mydata.d0jjezh.mongodb.net/signup?retryWrites=true&w=majority')
+    .connect('mongodb+srv://@mydata.d0jjezh.mongodb.net/signup?retryWrites=true&w=majority')
     .then(() => {
         console.log(`Connected to MongoDB`);
         app.listen(3000, () => {
